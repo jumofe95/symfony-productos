@@ -1,0 +1,21 @@
+{% extends '::base.html.twig'%}
+
+{% block body %}
+
+  {% if id == 1%}
+      <div align="center">
+          <h1>GTA San Andreas</h1>
+          <img src="http://vignette2.wikia.nocookie.net/es.gta/images/c/c2/Grand_Theft_Auto_San_Andreas.JPG/revision/latest?cb=20080911022541" height="600px"/>
+          <img src="http://www.elandroidelibre.com/wp-content/uploads/2013/11/gta-san-andreas.jpg" height="300px"/>
+      </div>
+  {% endif %}
+
+  {% if id == 2%}
+  <div align="center">
+      <h1>God Of War</h1>
+      <img src="https://i.ytimg.com/vi/TXYGd6AlAZk/maxresdefault.jpg" width="40%"/>
+      <img src="http://4.bp.blogspot.com/-ggyNLLjaX2w/UZ6MEsMAYyI/AAAAAAAAAFs/btFPw84Qed8/s1600/God_of_war_2_wallpapers_10.jpg" width="40%"/>
+  </div>
+  {% endif %}
+
+{% endblock %}
